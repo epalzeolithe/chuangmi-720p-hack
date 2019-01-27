@@ -4,8 +4,8 @@
 # Chuangmi-720P-hack project
 
 This projects provides an alternate firmware for the Xiaomi Chuangmi 720p IP Camera's.
-These camera's, based on the Grain Media GM8136S SOC, normally only work using the cloudbased app.
-With this firmware an alternate method of using this webcam is created that does not require an internet uplink.
+This camera, based on the Grain Media GM8136S SOC, normally only work using the cloudbased app.
+With this firmware you can use the camera without being bound to the cloud service and does not require an internet uplink.
 
 **Please read the [security considerations in the wiki](https://github.com/fliphess/chuangmi-720p-hack/wiki/Security-Considerations).**
 
@@ -15,7 +15,10 @@ With this firmware an alternate method of using this webcam is created that does
 ## Help debugging
 
 Please debug any issues appearing while using the hack and file a pull request to get things fixed in this repo.
-As I'm losing too much time on solving issues that are in the wiki, I've decided to close all issues and start working with a feature tracking tool.
+
+As I'm losing way too much time on solving configuration issues that are documented in the wiki, I've decided to close all issues and started working with a feature tracking tool. 
+
+This does not mean I'm not open to new features and pull requests. Feel welcome to fix and add!
 
 ## Features
 
@@ -109,9 +112,9 @@ Choose the "Releases Only" flag to make yourself more zen :)
 ## Need help? Want to help? Ideas? suggestions?
 
 I've spend many hours documenting everything I ran into in the wiki. Please read the [troubleshooting guide](https://github.com/fliphess/chuangmi-720p-hack/wiki/Troubleshooting) for solving the most common issues.
-If something is not documented, please let me know so I can extend the wiki.
+If something is not documented, please extend the wiki for future generations.
 
-Feel welcome to bring pull requests and feature requests on the table.
+Feel welcome to bring pull requests to the table.
 
-If you're good at making a nice web interface, let me know! I'm quite tasteless when it comes to the web and layout, so I could use some help :)
+If you're good at making a nice web interface, please go wild! I'm quite tasteless when it comes to the web and layout, so I could use some help :)
 
