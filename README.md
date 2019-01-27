@@ -4,7 +4,8 @@
 # Chuangmi-720P-hack project
 
 This projects provides an alternate firmware for the Xiaomi Chuangmi 720p IP Camera's.
-This camera, based on the Grain Media GM8136S SOC, normally only work using the cloudbased app.
+This camera, based on the Grain Media GM8136S SOC, normally only works using a cloud service.
+
 With this firmware you can use the camera without being bound to the cloud service and does not require an internet uplink.
 
 **Please read the [security considerations in the wiki](https://github.com/fliphess/chuangmi-720p-hack/wiki/Security-Considerations).**
