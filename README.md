@@ -86,7 +86,8 @@ You can test is your camera is up and running this hack with your browser on url
 
 FIRST START ISSUES :
 1) you'd better configure your wifi through mi-home app first, without download the last firmware. Doing this, you're going to save your wifi credentials in the NVRAM, so nothing to configure when loading the hack with sd card
-2) when this is the first start you're using the hack, an NVRAM key is missing, messing the system, especially the web interface settings. You just need to log with ssh into your cam, then issue this command : 'nvram set ir_cut=off'. The key is now created, even after a reboot, and then everything is working in the interface :)
+2) when this is the first start you're using the hack, an NVRAM key is missing, messing the system, especially the web interface settings. You just need to log with ssh into your cam, then issue this command : 'nvram set ir_cut=off'. The key is now created, and then everything is working in the interface :) 
+-> To fix it permanently, add this command in script/.boot/sh. It has been fixed in the source of this fork
 
 ## Using the camera
 
