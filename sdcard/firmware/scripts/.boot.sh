@@ -37,6 +37,9 @@ fi
 ## Configure NVRAM                                                              ##
 ##################################################################################
 
+echo "*** Fix ir_led NVRAM"
+nvram set ir_led=off
+
 echo "*** Configuring NVRAM"
 for setting in blue_led yellow_led; do
     /usr/sbin/nvram set "${setting}=off"
