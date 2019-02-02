@@ -38,7 +38,7 @@ fi
 ##################################################################################
 
 echo "*** Configuring NVRAM"
-for setting in blue_led yellow_led; do
+for setting in blue_led yellow_led ir_led; do
     /usr/sbin/nvram set "${setting}=off"
 done
 
